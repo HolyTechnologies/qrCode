@@ -23,10 +23,10 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #021F1D 0%, #667eea 100%);
     /* Chrome-specific gradient fallback */
-    background: -webkit-linear-gradient(315deg, #667eea 0%, #764ba2 100%);
-    background: -o-linear-gradient(315deg, #667eea 0%, #764ba2 100%);
+    background: -webkit-linear-gradient(315deg, #021F1D 0%, #667eea 100%);
+    background: -o-linear-gradient(315deg, #021F1D 0%, #667eea 100%);
     min-height: 100vh;
     color: #333;
     line-height: 1.6;
@@ -172,7 +172,7 @@ body {
 }
 
 .card h2 i {
-    color: #667eea;
+    color: #021F1D;
 }
 
 /* Touch-friendly Input Styles */
@@ -211,8 +211,8 @@ body {
 
 #qrText:focus, #qrName:focus {
     outline: none;
-    border-color: #667eea;
-    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    border-color: #021F1D;
+    box-shadow: 0 0 0 3px rgba(2, 31, 29, 0.1);
 }
 
 /* Responsive Logo Selection */
@@ -284,13 +284,13 @@ body {
 }
 
 .logo-option:hover {
-    border-color: #667eea;
+    border-color: #021F1D;
     transform: translateY(-1px);
 }
 
 .logo-option.selected {
-    border-color: #667eea;
-    background: rgba(102, 126, 234, 0.1);
+    border-color: #021F1D;
+    background: rgba(2, 31, 29, 0.1);
 }
 
 .logo-preview {
@@ -334,7 +334,7 @@ body {
     align-items: center;
     gap: 0.5rem;
     padding: 1rem 1.5rem;
-    background: #667eea;
+    background: #021F1D;
     color: white;
     border-radius: 10px;
     cursor: pointer;
@@ -399,7 +399,7 @@ body {
 }
 
 .info-item strong {
-    color: #667eea;
+    color: #021F1D;
     display: block;
     margin-bottom: 0.5rem;
 }
@@ -477,7 +477,7 @@ body {
 
 .setting-group select:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #021F1D;
 }
 
 /* QR Result */
@@ -612,7 +612,7 @@ body {
 .stat-number {
     font-size: clamp(1.2rem, 3vw, 1.8rem);
     font-weight: 700;
-    color: #667eea;
+    color: #021F1D;
     margin-bottom: 0.5rem;
     line-height: 1.2;
 }
@@ -653,7 +653,7 @@ body {
 }
 
 .recent-item:hover {
-    border-color: #667eea;
+    border-color: #021F1D;
     transform: translateY(-1px);
 }
 
@@ -676,7 +676,7 @@ body {
 
 .recent-name {
     font-weight: 700;
-    color: #667eea;
+    color: #021F1D;
     margin-bottom: 0.25rem;
     font-size: clamp(0.9rem, 2.3vw, 1rem);
     overflow: hidden;
@@ -937,7 +937,7 @@ body {
 }
 
 .generate-btn {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #021F1D 0%, #764ba2 100%);
     color: white;
     border: none;
     padding: 1.2rem 2rem;
@@ -957,8 +957,8 @@ body {
     -webkit-transform: translateY(-2px);
     -ms-transform: translateY(-2px);
     transform: translateY(-2px);
-    -webkit-box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
-    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+    -webkit-box-shadow: 0 8px 25px rgba(2, 31, 29, 0.3);
+    box-shadow: 0 8px 25px rgba(2, 31, 29, 0.3);
 }
 
 .generate-btn:disabled {
@@ -990,7 +990,7 @@ body {
 
 .setting-group select:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #021F1D;
 }
 
 /* Responsive Design */
